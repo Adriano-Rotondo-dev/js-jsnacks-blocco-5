@@ -14,13 +14,11 @@ names.forEach((name) => console.log(name));
 
 //*metodo map
 
-const mapName = names.map((name)  =>{
-  return name 
-})
+const mapName = names.map((name) => {
+  return name;
+});
 console.log(mapName);
 
 //*shortcut .map oneliner
 
 const namesArray = names.map((name) => console.log(name));
-
-

@@ -10,23 +10,13 @@ const posts = [
 
 //*metodo forEach
 
-
-
-//*metodo filter
-
-
-
-//*metodo find
-
-
-
 //* metodo map
 const authors = posts.map((post) => {
   return post.author;
 });
 console.log(authors);
 
-//*shortcut oneliner
+//*shortcut .map oneliner
 
 const postAuthors = posts.map((post) => post.author);
 console.log(postAuthors);

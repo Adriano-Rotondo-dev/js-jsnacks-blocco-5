@@ -23,3 +23,22 @@ const mapEvenNumbers = nums.map((number) => {
 console.log(mapEvenNumbers);
 
 //* .map oneliner
+
+const mapOneLiner = nums.map((number) => number % 2 === 0);
+
+console.log(mapOneLiner);
+
+//* filter
+
+const filterEvenNumbers = nums.filter((number) => {
+  if (number % 2 === 0) {
+    return number;
+  }
+});
+console.log(filterEvenNumbers);
+
+//*metodo .filter shortcut
+
+const filterOneLiner = nums.filter((number) => number % 2 === 0);
+
+console.log(filterOneLiner);

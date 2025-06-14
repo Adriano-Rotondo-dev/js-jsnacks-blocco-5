@@ -27,5 +27,3 @@ console.log(mapNumbers);
 
 const mapBiggerNumbers = numbers.map((number) => number + 1);
 console.log(mapBiggerNumbers);
-
-

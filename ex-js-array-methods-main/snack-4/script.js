@@ -9,6 +9,17 @@ const posts = [
 // Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
 
 //*metodo forEach
+const names = []
+posts.forEach(post => {
+names.push(post.author)
+});
+console.log(names)
+
+//* forEach oneliner
+
+const postsAuthors = []
+posts.forEach(post=> postsAuthors.push(post.author))
+console.log(postsAuthors)
 
 //* metodo map
 const authors = posts.map((post) => {
@@ -20,3 +31,10 @@ console.log(authors);
 
 const postAuthors = posts.map((post) => post.author);
 console.log(postAuthors);
+
+//* metodo filter
+
+const filterAuthors = posts.filter(post => {
+  return true
+})
+console.log(filterAuthors)

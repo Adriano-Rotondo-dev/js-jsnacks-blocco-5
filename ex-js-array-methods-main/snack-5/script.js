@@ -24,8 +24,7 @@ console.log(mapEvenNumbers);
 
 //* .map oneliner
 
-const mapOneLiner = nums.map((number) => number % 2 === 0);
-
+const mapOneLiner = nums.map(number => number % 2 === 0);
 console.log(mapOneLiner);
 
 //* filter
@@ -39,6 +38,6 @@ console.log(filterEvenNumbers);
 
 //*metodo .filter shortcut
 
-const filterOneLiner = nums.filter((number) => number % 2 === 0);
+const filterOneLiner = nums.filter(number => number % 2 === 0);
 
 console.log(filterOneLiner);

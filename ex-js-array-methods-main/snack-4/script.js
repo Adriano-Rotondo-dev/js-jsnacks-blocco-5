@@ -29,5 +29,5 @@ console.log(authors);
 
 //*shortcut .map oneliner
 
-const postAuthors = posts.map((post) => post.author);
+const postAuthors = posts.map(post => post.author);
 console.log(postAuthors);

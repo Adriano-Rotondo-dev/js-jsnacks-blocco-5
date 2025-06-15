@@ -21,4 +21,4 @@ console.log(mapName);
 
 //*shortcut .map oneliner
 
-const namesArray = names.map((name) => console.log(name));
+const namesArray = names.map(name => console.log(name));

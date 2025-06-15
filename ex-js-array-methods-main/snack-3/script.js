@@ -25,5 +25,5 @@ console.log(mapNumbers);
 
 //*shortcut oneliner .map
 
-const mapBiggerNumbers = numbers.map((number) => number + 1);
+const mapBiggerNumbers = numbers.map(number => number + 1);
 console.log(mapBiggerNumbers);

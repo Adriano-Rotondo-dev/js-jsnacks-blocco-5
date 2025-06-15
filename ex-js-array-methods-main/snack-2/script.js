@@ -18,12 +18,12 @@ people.forEach((person) => console.log(person.name));
 
 //*metodo map
 
-const peopleNames = people.map((person, i, age) => {
+const peopleNames = people.map((person) => {
   return person.name;
 });
 console.log(peopleNames);
 
 //*shortcut .map oneliner
 
-const peoplesNames = people.map((person) => person.name);
+const peoplesNames = people.map(person => person.name);
 console.log(peopleNames);

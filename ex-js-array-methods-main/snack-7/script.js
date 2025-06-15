@@ -39,19 +39,17 @@ console.log(findStudent);
 
 //*metodo find oneLiner
 
-findStudentOneliner = students.find((student) => student.id === 2);
+findStudentOneliner = students.find(student => student.id === 2);
 console.log(findStudentOneliner);
 
 //*metodo filter
 
 filterStudent = students.filter((student) => {
-  if (student.id === 2) {
-    return student;
-  }
-});
+    return student.id === 2
+  });
 console.log(filterStudent);
 
 //* metodo filter oneLiner
 
-filterStudentOneLiner = students.filter((student) => student.id === 2);
+filterStudentOneLiner = students.filter(student => student.id === 2);
 console.log(filterStudentOneLiner);

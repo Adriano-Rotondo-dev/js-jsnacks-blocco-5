@@ -26,16 +26,12 @@ console.log(otherZucchine);
 
 //*filter
 const longerZucchine = zucchine.filter((zucchina) => {
-  if (zucchina.length > 15) {
-    return zucchina;
-  }
-});
+    return zucchina.length > 15;
+  });
 console.log(longerZucchine);
 
 const shorterZucchine = zucchine.filter((zucchina) => {
-  if (zucchina.length < 15) {
-    return zucchina;
-  }
+    return zucchina.length < 15 ;
 });
 console.log(shorterZucchine);
 

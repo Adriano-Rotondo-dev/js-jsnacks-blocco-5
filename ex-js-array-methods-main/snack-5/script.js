@@ -30,14 +30,11 @@ console.log(mapOneLiner);
 //* filter
 
 const filterEvenNumbers = nums.filter((number) => {
-  if (number % 2 === 0) {
-    return number;
-  }
+    return number % 2 === 0;
 });
 console.log(filterEvenNumbers);
 
 //*metodo .filter shortcut
 
 const filterOneLiner = nums.filter(number => number % 2 === 0);
-
 console.log(filterOneLiner);
